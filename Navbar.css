@@ -1,0 +1,46 @@
+
+
+nav{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    top: 0;
+}
+
+li{
+    color: white;
+
+}
+
+.sidebars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+    
+    
+
+}
+
+.side{
+    background-color: black;
+    border-radius: 5px;
+    height: 1000px;
+    width:100px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
