@@ -1,0 +1,71 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 40px;
+    top: 10px;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px;
+    gap:20px;
+
+   
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+    background-color: red;
+    border-radius: 5%;
+    color: white;
+    
+
+}
+
+
+
+
+
+/* 
+.parent {
+    position: absolute;
+    background-color: blue;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40em;
+    height:auto;
+}
+
+.child1 {
+  position: relative;
+  top: 0;
+  background-color: red;
+  width:20rem;
+  height: 20rem;
+}
+
+.child2{
+    position: relative;
+    top: 4px;
+    left: 0;
+    background-color: green;
+    width:20rem;
+    height: 20rem;
+}  

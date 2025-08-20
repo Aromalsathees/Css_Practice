@@ -1,0 +1,50 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 40px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+
+    background-color: violet;
+    margin: 10rem;
+    padding: 10rem;
+}
+
+.box1 {
+    background-color: blue;
+    width:20rem;
+    height: 20rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+}
+
+.box2 {
+    background-color: yellowgreen;
+    width: 20rem;
+    height: 20rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    background-color: orangered;
+}
+
+h1{
+    color: palevioletred;
+}

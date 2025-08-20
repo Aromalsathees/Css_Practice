@@ -1,0 +1,57 @@
+h1{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    width:20rem;
+    height: 20rem;
+    
+} */
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  justify-items: center; /* children center align */
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .parent {
+    grid-template-columns: 1fr; /* 1 column in phone view */
+  }
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  width: 20rem;
+  height: 20rem;
+}
