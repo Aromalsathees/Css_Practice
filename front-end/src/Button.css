@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 10rem;
+    height: 30px;
+}
+
+h2{
+    color: blue;
+    font-size: 2rem;
+}
